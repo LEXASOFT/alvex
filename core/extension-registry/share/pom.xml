@@ -28,6 +28,7 @@
     <dependency>
       <groupId>${alfresco.groupId}</groupId>
       <artifactId>alfresco-web-framework-commons</artifactId>
+      <classifier>classes</classifier>
     </dependency>
     <dependency>
       <groupId>commons-codec</groupId>

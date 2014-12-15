@@ -257,7 +257,7 @@ public class AlvexVersionableAspect implements ContentServicePolicies.OnContentU
                 ContentModel.ASPECT_VERSIONABLE,
                 new JavaBehaviour(this, "getCopyCallback"));
         
-        this.dictionaryDAO.register(this);
+        this.dictionaryDAO.registerListener(this);
     }
     
     /**
